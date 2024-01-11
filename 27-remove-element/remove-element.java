@@ -1,10 +1,6 @@
 class Solution {
     public int removeElement(int[] nums, int val) {
 
-        if( nums.length ==1 && nums[0] == val){
-            return 0;
-        }
-
         int ptr1 = 0;
         int ptr2 = nums.length;
         
